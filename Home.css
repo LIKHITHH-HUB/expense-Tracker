@@ -1,0 +1,76 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+
+.parent{
+    position: relative;
+    border:1px black solid;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+}
+.solid-circle{
+    height:750px;
+    width:750px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    right:-375px;
+    top:-120px;
+    background:rgb(32, 111, 113);
+    z-index:1;
+}
+.header-home{
+
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    z-index:1;
+    width:100%;
+    top:10px;
+    padding:0px 25px;
+}
+#click-here-button{
+    background-color:white;
+    color:rgb(32, 111, 113);
+    font-size:large;
+    font-weight:600;
+    box-shadow:4px 4px 2px rgba(0,0,0,0.50);
+
+}
+#Name-tag{
+    color:rgb(32, 111, 113);
+    font-size:100px;
+}
+.form-floating{
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+    border-radius:8px;
+}
+#login-button{
+    background-color: rgb(32, 111, 113);
+    color:white;
+    padding: 5px 25px;
+}
+.main-content{
+    margin-left:25px;
+}
+@media only screen and (max-width: 768px) {
+    .solid-circle{
+        background:black;
+        height:300px;
+        width:300px;
+        right:-140px;
+        top:-115px;
+    }
+    #Name-tag{
+        color:black;
+    }
+    #login-button{
+        background-color:black;
+    }
+    #click-here-button{
+        color:black;
+    }
+
+}

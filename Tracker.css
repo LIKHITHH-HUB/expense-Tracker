@@ -1,0 +1,113 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+.header{
+    background: rgb(32, 111, 113);
+    color:white;
+    padding-left:25px;
+    font-size:large;
+}
+.input-form{
+    display:flex;
+    justify-content: space-around;
+    width:95%;
+    margin:auto;
+    border-radius:8px;
+    box-shadow: 0px 0px 4px rgb(32, 111, 113);
+    margin-top:15px;
+    padding:25px 0px;
+
+}
+.form-floting{
+
+}
+#add-button{
+    background:rgb(32, 111, 113);
+    font-size:x-large;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    color:white;
+    font-weight:600;
+}
+.inputs{
+    width:30%;
+}
+.cards{
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    margin:auto;
+}
+.card{
+     background-color:rgb(32, 111, 113);
+     color:white;
+     border:0px;
+     height:150px;
+}
+.card-body{
+    color:white;
+}
+.transaction-table{
+    border-radius:8px;
+    width:95%;
+    margin:auto;
+    overflow:hidden;
+    margin-top:20px;
+    font-weight:900;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.5);
+    padding:0px;
+}
+#header-row{
+    background-color:rgb(32, 111, 113);
+}
+#header-row th{
+    padding:15px 10px;
+    color:white;
+}
+.delete-button,.delete-button:hover{
+    background:rgb(32, 111, 113);
+    border: none;
+    height:35px;
+    width:50px;
+    border-radius:40%;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        background:black;
+    }
+    .input-form{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:15px;
+    box-shadow: 0px 0px 4px rgb(0,0,0,0.5);
+    }
+    .inputs{
+        width:75%;
+    }
+    #add-button {
+    background :black;
+    border-radius:8px;
+    width:75%;
+    
+    }
+    .cards{
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    margin:auto;
+    flex-wrap:wrap;
+    gap:15px;
+    }
+    .card{
+     background-color:black;
+     color:white;
+     border:0px;
+     height:150px;
+     width:150px;
+    }
+    #header-row{
+        background:black;
+    }
+}
